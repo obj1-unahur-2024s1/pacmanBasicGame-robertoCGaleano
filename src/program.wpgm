@@ -2,13 +2,15 @@ import wollok.game.*
 import example.*
 
 program pacman {
+	// título al juego
+	game.title("Pacman!")
 	
 	// límites del juego
 	game.width(14)
 	game.height(8)
 	
 	// fondo
-	game.boardGround("pacmanBackground.jpg")
+	game.boardGround("fondoPacman.jpg")
 	
 	// personaje principal
 	game.addVisualCharacter(pacman)
